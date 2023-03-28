@@ -19,7 +19,7 @@ body {
   background: white;
   width: 480px;
   border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);2px;
 }
 
 .icon {
@@ -64,3 +64,54 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/*solution  */
+
+/*
+.modal {
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+
+.icon {
+  flex-shrink: 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.text {
+  margin-bottom: 16px;
+} 
+
+*/
+
+
+/* ---- I placed the solution in after i figured my solution out. The solution given to us, doesnt give me the same outcome as mine as seen below*/
+.modal {
+  padding: 16px;
+}
+.top {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  gap: 10px;
+}
+.header {
+  margin-right: 90px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 52px;
+  gap: 12px;
+}
+
