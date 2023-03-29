@@ -27,3 +27,102 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* My solution */ 
+
+/*.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  display: flex;
+  padding-left: 16px;
+  font-size: 32px;
+  font-weight: 900;
+  align-items: center;
+}
+.sidebar {
+  display: flex;
+  flex: 1 0 300px;
+  padding: 16px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+ul {
+  list-style: none;
+  padding: 2px;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+  gap: 10px;
+  justify-content: flex-start;
+
+}
+.card {
+flex: 1 1 0;
+}
+*/
+
+body {
+  display: flex; 
+  flex-direction: column;
+}
+
+.header {
+  padding: 0 16px;
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+.sidebar {
+  display: flex;
+  flex-shrink: 0;
+}
+a, ul {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  list-style: none;
+}
+li {
+  margin-bottom: 16px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 300px;
+  margin: 16px;
+  padding: 16px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
